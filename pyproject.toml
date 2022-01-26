@@ -7,8 +7,6 @@ authors = ["amundis <amundis@student.matnat.uio.no>"]
 [tool.poetry.dependencies]
 python = "^3.10"
 numpy = "^1.22.1"
-pyenchant = "^3.2.2"
-flake8 = "^4.0.1"
 autopep8 = "^1.6.0"
 
 [tool.poetry.dev-dependencies]
