@@ -24,15 +24,15 @@ class dbWordSearch():
         base_querry += "AND " + querry_known_letters + " "
 
         for i in querry_possible_letters:
-            print(i)
-            print("AND " + i + " ")
+            #print(i)
+            #print("AND " + i + " ")
             base_querry += "AND " + i + " "
 
         for i in querry_excluded_letters:
             base_querry += "AND " + i + " "
 
 
-        print(base_querry)
+        #print(base_querry)
         return base_querry + ";"
 
 
